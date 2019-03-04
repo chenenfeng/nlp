@@ -1,0 +1,30 @@
+Question answering
+Information Extraction
+Sentiment Analysis
+Machine Translation
+
+mostly solved:
+spam detection, part-of-speech tagging,named entity recognition
+
+making process:
+sentiment analysis,coreference resolution, word sense disambiguation, parsing, machine translation, information extraction
+
+still hard:
+question answering, paraphrase,summerization, Dialog
+
+Difficulties in NLP:
+Ambiguaty (phrase structure)
+non-standard English
+segmentation
+idioms
+neologisms
+world knowlegde
+entity names
+
+Important ideas and tools to do statistical NLP:
+viterbi
+naive bayes, maxent classifier
+N-gram language modeling
+statistical parsing
+inverted index, tf-idf,vector model of meanings
+
