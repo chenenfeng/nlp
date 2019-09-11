@@ -1,0 +1,17 @@
+Independence:
+IIF P(x,y) = P(x)*P(y)
+
+P(x) = sumy P(y)
+
+Chain Rule: P(x,y,z) = P(x|y,z)P(y,z) = P(x|y,z)P(y|z)P(z)
+
+Bayes Rule: P(x|y) = P(y|x)P(x)/P(y)
+
+P(sentence) = P(W1 = w1, W2 = w2, W3 = w3, ... Wn = wn)
+ = P(w1,w2,w3,...wn）   joint prob of n words
+ = P(wn|w1,w2,...wn-1)*P(wn-1|w1,w2,...wn-2)*...   several order  once pick whatever word
+ 
+ Train Data:  can get P(w2|w1) = c(w2 occurs after w1)/c(w1 occurs)
+ P(w1) = c(w1 occurs)/N
+ 
+ Prob(wn|"Hi, my name is"]  particular sequence
